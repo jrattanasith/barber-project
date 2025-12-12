@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Haircut", "price": "$35", "description": "Classic or modern cut." },
+  { "id": 2, "name": "Beard Trim", "price": "$20", "description": "Sharp and clean." },
+  { "id": 3, "name": "Full Grooming", "price": "$50", "description": "Haircut + beard." }
+]

@@ -1,0 +1,4 @@
+[
+  { "id": 1, "name": "Tony", "photo": "/images/barbers/tony.jpg", "bio": "10+ years experience." },
+  { "id": 2, "name": "Mike", "photo": "/images/barbers/mike.jpg", "bio": "Fade specialist." }
+]
