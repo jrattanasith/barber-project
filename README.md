@@ -88,4 +88,8 @@ Store appointments in a database
 
 Improve accessibility (ARIA, keyboard navigation)
 
+<<<<<<< HEAD
 Add animations and micro‑interactions
+=======
+Add animations and micro‑interactions
+>>>>>>> e8bfb78b020d52f2fede725e7877e1b8b7b0c2ff
