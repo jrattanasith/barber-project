@@ -13,3 +13,12 @@ main {
   max-width: 800px;
   margin: auto;
 }
+
+.andy-logo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8rem;
+  height: 4rem;
+  
+}
