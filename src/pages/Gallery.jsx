@@ -1,14 +1,15 @@
-import gallery from "../data/gallery.json";
+import Grid from '@mui/material/Grid';
+import HairCutCard from '../components/HairCutCard';
+import gallery from '../data/gallery';
 
 export default function Gallery() {
   return (
-    <main className="section">
-      <h2>Gallery</h2>
-      <div className="grid">
-        {gallery.map((img, i) => (
-          <img src={img} alt={`cut-${i}`} key={i} />
-        ))}
-      </div>
-    </main>
+     <Grid container spacing={2} justifyContent="center" paddingTop={"20px"}>
+      {gallery.map(cut => (
+        <Grid item key={cut.id}>
+          <HairCutCard {...cut} />
+        </Grid>
+      ))}
+    </Grid>
   );
 }

@@ -1,8 +1,13 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f9f9f9;
-  color: #111;
+  background: black;
+  color: #fff;
+}
+
+.footer .nav-link,
+.footer li {
+  color: white;
 }
 
 a {
@@ -20,5 +25,4 @@ main {
   transform: translateY(-50%);
   width: 8rem;
   height: 4rem;
-  
 }
